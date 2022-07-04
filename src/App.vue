@@ -11,3 +11,6 @@ export default {
 <template>
     <Hub />
 </template>
+
+<style>
+</style>

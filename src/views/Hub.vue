@@ -1,13 +1,20 @@
 <template>
-<div>hey</div>
+<Header />
 </template>
 
 <script>
+import Header from './Header.vue'
+
 export default {
-    title: "LAMZnet Hub"
+    title: "LAMZnet Hub",
+    components : {
+        Header
+    }
 }
 </script>
 
 <style>
-    
+body {
+    font-family: "Poppins", Arial, sans-serif;
+}
 </style>

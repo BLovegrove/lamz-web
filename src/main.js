@@ -15,6 +15,7 @@ library.add(faDiscord, faHeart, faBars)
 
 // custom
 import titleChange from './util/titleChange.js'
+import Navbar from './components/Navbar.vue'
 
 // init
 const app = createApp({
@@ -23,6 +24,7 @@ const app = createApp({
 
 // components
 app.component('font-awesome-icon', FontAwesomeIcon)
+app.component('Navbar', Navbar)
 
 // plugins
 

@@ -1,52 +1,55 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <img src="../assets/lamz_head_transparent_small.png" alt="" class="pe-2" height="40">
-            <a class="navbar-brand" href="#">
-                LAMz-net
-            </a>
-            <div class="navbar-brand me-0">
-                <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white">&nbsp;</div>
-                <hr class="d-lg-none text-white-50">
+        <div class="container justify-content-around">
+            <div class="d-flex">
+                <img src="../assets/lamz_head_transparent_small.png" alt="" class="pe-2" height="40">
+                <a class="navbar-brand" href="#">
+                    LAMz-net
+                </a>
+
+                <div class="social-media order-lg-last">
+                    <p class="mb-0 d-flex">
+                        <a href="#" class="d-flex align-items-center justify-content-center">
+                            <font-awesome-icon icon="fa-brands fa-discord" />
+                        </a>
+                    </p>
+                </div>
             </div>
-            <div class="social-media order-lg-last">
-                <p class="mb-0 d-flex">
-                    <a href="#" class="d-flex align-items-center justify-content-center px-2">
-                        <font-awesome-icon icon="fa fa-heart" /> &nbsp; Donate!
-                    </a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-discord" />
-                    </a>
-                </p>
-            </div>
+            <!-- <div class="d-flex"> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavContent"
                 aria-controls="NavContent" aria-expanded="false" aria-label="Toggle navigation">
                 <font-awesome-icon icon="fa fa-bars" />
             </button>
-            <div class="collapse navbar-collapse" id="NavContent">
+            <!-- </div> -->
+            <div class="collapse navbar-collapse flex-grow-0" id="NavContent">
                 <ul class="navbar-nav ml-auto mr-md-3">
                     <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Artwork
+                            Scrapbooks
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
                             <li>
-                                <h6 class="dropdown-header">Art mediums</h6>
+                                <h6 class="dropdown-header">Gaming</h6>
                             </li>
-                            <li><a class="dropdown-item" href="#">Digital</a></li>
-                            <li><a class="dropdown-item" href="#">Painting</a></li>
-                            <li><a class="dropdown-item" href="#">Pen/Pencil</a></li>
+                            <li><a class="dropdown-item" href="#">Destiny 2</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <h6 class="dropdown-header">Digital scrapbooks</h6>
+                                <h6 class="dropdown-header">D&D</h6>
                             </li>
-                            <li><a class="dropdown-item" href="#">Destiny 2</a></li>
+                            <!-- <li><a class="dropdown-item" href="#"></a></li> -->
                         </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Artwork</a></li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Donate!
+                            <font-awesome-icon icon="fa fa-heart" />
+                        </a>
                     </li>
                 </ul>
             </div>

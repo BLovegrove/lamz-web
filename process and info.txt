@@ -1,0 +1,18 @@
+- user uploads image to homework with specific formatted message attached (make that the only pin in homework)
+- user runs slash command using uploaded image url as an argument (right click > copy link on image)
+- boomer downloads image, renames if needed, and uploads it to git repo docs/images/artwork folder (tracking file path)
+- boomer adds database entry for uploaded image with image path on github + uploader details and desc/title/art type
+- image serving page periodically polls database / manual refresh button / user reloads page to see new items appear
+- profit
+
+API mapping:
+
+GET art              : /api/v1/art/{category}
+POST art             : /api/v1/art
+PUT art              : /api/v1/art/{_id}
+DELETE art           : /api/v1/art/{_id}
+
+GET scrapbook        : /api/v1/scrapbook/{subject}
+POST scrapbook img   : /api/v1/scrapbook/{subject}
+PUT scrapbook img    : /api/v1/scrapbook/{_id}
+DELETE scrapbook img : /api/v1/scrapbook/{_id}

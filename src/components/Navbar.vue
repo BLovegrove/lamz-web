@@ -2,18 +2,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container justify-content-around">
             <div class="d-flex">
-                <img src="../assets/lamz_head_transparent_small.png" alt="" class="pe-2" height="40">
+                <img src="../assets/logo_flat_white.png" class="pe-2" height="40" width="53">
                 <a class="navbar-brand" href="#">
                     LAMz-net
                 </a>
-
-                <div class="social-media order-lg-last">
-                    <p class="mb-0 d-flex">
-                        <a href="#" class="d-flex align-items-center justify-content-center">
-                            <font-awesome-icon icon="fa-brands fa-discord" />
-                        </a>
-                    </p>
-                </div>
             </div>
             <!-- <div class="d-flex"> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavContent"

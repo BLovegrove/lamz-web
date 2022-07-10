@@ -22,6 +22,10 @@ const app = createApp({
     extends: App
 })
 
+// global variables
+app.config.globalProperties.apiUrl = 'http://localhost:5000/api/v1/info'
+app.config.globalProperties.discordInvite = 'https://discord.gg/ANAvcJDK3b'
+
 // components
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.component('Navbar', Navbar)
